@@ -1,0 +1,191 @@
+
+body, h1, h3{
+    margin: 0;
+}
+
+.bottom {
+    margin-top: 150px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.box_1{
+    background-color: #555;
+    padding: 20px 30px;
+    border: 3px solid red;
+    margin-top: 30px;
+}
+
+.box_1 h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: white;
+}
+
+.box_1 p {
+    color: white;
+}
+
+.box_2 {
+    padding: 20px;
+    margin-top: 30px;
+    border: 3px dashed #555;
+}
+
+.box_2 h1, .box_2 p {
+    color: #555;
+}
+
+.button {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #222;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #222;
+}
+
+.box_3 {
+    margin: 30px 0;
+    border: 1px solid #555;
+    padding: 20px;
+}
+
+.box_3 h1 {
+    text-align: center;
+    color: #555;
+    font-family: sans-serif;
+}
+
+.categories {
+    padding: 0;
+}
+
+.categories li {
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #555;
+}
+
+.myForm {
+
+}
+
+.myForm label {
+    display: block;
+    font-size: 20px;
+    color: #555;
+}
+
+.myForm input, .myForm textarea{
+    margin: 10px 0;
+    padding: 5px;
+    display: block;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.333%;
+    border: 1px solid #555;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content {
+    float: left;
+    width: 70%;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.relative {
+    position: relative;
+    margin-top: 10px;
+    width: 500px;
+    height: 400px;
+    background-image: url(web.png);
+    background-size: cover;
+}
+
+.absolute {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.absolute2 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+
+.list-items li {
+    color: #555;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.list-items li:first-child{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.list-items li:nth-child(even){
+    background-color: green;
+    color: #fff;
+}
+
+.list-items li:last-child{
+    background-color: blue;
+    color: #fff;
+}
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table1 th {
+    border: 1px solid #555;
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+}
+
+.table1 td {
+    border: 1px solid #555;
+    text-align: center;
+    padding: 5px;
+}
+
+.table1 tr:nth-child(even){
+    background-color: yellow;
+}
